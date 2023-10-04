@@ -14,11 +14,12 @@ export const ToDoItem = ({toDo, completeToDo, deleteToDo}: ToDoItemProps) => {
 
   return (
     <View style={styles.toDo_container}>
-      <Switch
-        style={styles.toDo_checkbox}
-        onValueChange={handleComplete}
-        value={toDo.completed}
-      />
+      <View style={styles.toDo_checkbox}>
+        <Switch
+          onValueChange={handleComplete}
+          value={toDo.completed}
+        />
+      </View>
       <View style={styles.toDo_content}>
         <Text
           style={
