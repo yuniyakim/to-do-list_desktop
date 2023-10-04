@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
-import { Style } from '../types/interfaces';
+import {StyleSheet} from 'react-native';
+import {Style} from '../types/interfaces';
 
 export const styles = StyleSheet.create<Style>({
   toDo_list_app_container: {
@@ -134,4 +134,4 @@ export const styles = StyleSheet.create<Style>({
     color: 'rgb(0, 0, 0)',
     textDecorationLine: 'line-through',
   },
-})
+});

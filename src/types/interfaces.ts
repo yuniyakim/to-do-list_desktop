@@ -1,4 +1,4 @@
-import { TextStyle, ViewStyle } from "react-native";
+import {TextStyle, ViewStyle} from 'react-native';
 
 export interface ToDo {
   id: number;
@@ -24,7 +24,7 @@ export interface ToDoFormProps {
 export interface Style {
   toDo_list_app_container: ViewStyle;
   toDo_list_app_title: TextStyle;
-  toDo_form : ViewStyle;
+  toDo_form: ViewStyle;
   toDo_list_container: ViewStyle;
   toDo_input: ViewStyle;
   toDo_add_button: ViewStyle;
