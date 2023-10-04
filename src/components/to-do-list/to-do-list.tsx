@@ -1,3 +1,4 @@
+import React from 'react';
 import {ToDoItem} from '../to-do-item/to-do-item';
 import {ToDo, ToDoListProps} from '../../types/interfaces';
 import {View} from 'react-native';

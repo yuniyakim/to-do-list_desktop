@@ -1,3 +1,4 @@
+import React from 'react';
 import {Pressable, Switch, Text, View} from 'react-native';
 import {ToDoItemProps} from '../../types/interfaces';
 import {styles} from '../../styles/styles';
@@ -16,7 +17,8 @@ export const ToDoItem = ({toDo, completeToDo, deleteToDo}: ToDoItemProps) => {
       <Switch
         style={styles.toDo_checkbox}
         onValueChange={handleComplete}
-        value={toDo.completed}></Switch>
+        value={toDo.completed}
+      />
       <View style={styles.toDo_content}>
         <Text
           style={
